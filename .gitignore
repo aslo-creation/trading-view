@@ -1,0 +1,9 @@
+.env
+# Pour déployer sur Streamlit Cloud avec un dépôt GitHub PRIVÉ, supprimez la
+# ligne ci-dessous (le fichier ne contient que des hash bcrypt, jamais de mots
+# de passe en clair). Ne JAMAIS la supprimer pour un dépôt PUBLIC.
+config/auth_config.yaml
+__pycache__/
+*.pyc
+.venv/
+logs/
